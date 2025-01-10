@@ -4,6 +4,9 @@
     background-color:#F1F1F3;
    
 }
+/* shared: */
+.bg-primary{background-color: #C6E4D6;}
+/*  */
 .fira{font-family: "Fira Sans", serif;}
 nav div h3{
   font-size: 32px;
@@ -36,11 +39,22 @@ nav div h3{
 .banner{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 80px 100px;
 }
 .banner-content{max-width:622px  ;
-
 max-height: 326px ;}
-.banner-img{
+
+.content-sub-title{
+    font-size: 24px;
+    font-weight: 600px;
+    color: rgba(12, 12, 12, .5)
+}
+.content-title{  font-size: 56px;
+    font-weight: 700px;
+}
+
+.content-img{
     max-width: 474.3 px;
     max-height: 400px;
     object-fit: fill;
