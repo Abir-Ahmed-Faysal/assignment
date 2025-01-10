@@ -41,17 +41,24 @@ nav div h3{
     align-items: center;
     justify-content: space-between;
     padding: 80px 100px;
+    gap: 64px;
+    margin-bottom: 80px;
 }
 .banner-content{max-width:622px  ;
-max-height: 326px ;}
+max-height: 326px ;
+}
 
 .content-sub-title{
     font-size: 24px;
     font-weight: 600px;
-    color: rgba(12, 12, 12, .5)
+    color: rgba(12, 12, 12, .5);
+    margin-bottom: 16px;
+    
 }
 .content-title{  font-size: 56px;
     font-weight: 700px;
+    margin-bottom: 35px;
+    
 }
 
 .content-img{
@@ -60,4 +67,12 @@ max-height: 326px ;}
     object-fit: fill;
 
 }
-
+.banner-content a{text-decoration: none;}
+.btn-secondary{
+    text-decoration: none;
+    color: white;
+    background-color: #006A50;
+    padding: 20px 100px ;
+    border-radius: 8px;
+    border: none;
+}
