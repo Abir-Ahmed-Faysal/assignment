@@ -181,3 +181,16 @@ border: 1px solid rgba(14, 14, 14, 0.15);
 
 /* News */
 
+.news-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+   
+}
+.news{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 48px;
+    border-radius: 15px;
+}
