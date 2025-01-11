@@ -180,7 +180,7 @@ border: 1px solid rgba(14, 14, 14, 0.15);
 
 
 /* News */
-.news{
+.news-content{
     display: flex;
     align-items: center;
 }
