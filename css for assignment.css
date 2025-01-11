@@ -1,17 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-*{margin: 0;
+*{
+    margin: 0;
     padding: 0;
     background-color:#F1F1F3;
-   
 }
+   
+a{text-decoration: none;}
 /* shared: */
 .bg-primary{background-color: #C6E4D6;}
+.bg-secondary{background-color: #ffff;}
+.img-margin{margin-bottom: 30px;}
+.box{
+    padding: 32px;
+    border-radius: 16px;
+width: 410px;
+height: 325px;
+}
+.transparent{
+    background-color: transparent;
+}
+.white{background-color: #ffff;}
+.blue{background-color:#5490F5;}
+.green{background-color: rgb(9, 161, 92);}
+.yellow{background-color: rgb(255, 194, 57);}
+.button-first{
+    font-size: 16px;
+font-weight: 600;
+border-radius: 8px;
+width: 150px;
+height: 50px;
+padding: 10px 20px;
+color: white;
+bottom: 50px;
+border: none;
+position: absolute;}
+
 /*  */
 .fira{font-family: "Fira Sans", serif;}
 nav div h3{
   font-size: 32px;
   font-weight: bold;
-
+color: black;
 }
 .navbar-item{
     display: flex;
@@ -48,6 +77,8 @@ nav div h3{
 max-height: 326px ;
 }
 
+
+
 .content-sub-title{
     font-size: 24px;
     font-weight: 600px;
@@ -76,7 +107,59 @@ max-height: 326px ;
     border-radius: 8px;
     border: none;
 }
+.pillar-title{
+    font-size: ;
+    font-weight: ;
+    margin-bottom: 15px;
+}
 
+.pillars{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
 
-/* Pillars of Bangladesh */
+}
+.pillar{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    width: 300px;
+    height: 240px;
+    padding: 24px;
+    border-radius: 16px;
+    background-color: #ffff;
+}
+
+.vision-box{display: flex;
+justify-content: space-between;
+gap: 24px;
+margin:32px auto;
+
+}
+.box-description{margin-bottom: ;}
+.box1{
+    background-color:  rgb(146, 180, 235);
+}
+.box2{
+    background-color:  rgb(198, 228, 214);
+}
+.box3{
+    background-color:  rgb(247, 235, 207);
+}
+
+.box img{height: 60px;
+width: 60px;}
+
+.block-quotes{
+margin: 0;
+height: 160px;
+padding: 48px 24px;
+border-radius: 16px;
+background-image: url('./assets/quote-bg.png');
+background-repeat: no-repeat;
+background-size:fill;
+background-position: 20px 25px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+border: 1px solid rgba(14, 14, 14, 0.15);
+}
 
