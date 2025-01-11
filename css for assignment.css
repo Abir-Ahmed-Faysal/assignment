@@ -167,21 +167,21 @@ border: 1px solid rgba(14, 14, 14, 0.15);
 
 .table{
     border-collapse: collapse;
-    width: 1400px ;
+    width: 1790px ;
     height: 409px;
-    align-items: center;
 }
-th{
+ td{border: 1px solid black;}
+
+.table-title{
+    display: flex;
+    gap: 1400px;
+    border: 1px;
+}
+
+
+/* News */
+.news{
     display: flex;
     align-items: center;
-justify-content: space-between;
-border: 1px 1px  0 1px;
 }
-th, td{border: 1px solid black;}
-
-
-
-
-
-
 
