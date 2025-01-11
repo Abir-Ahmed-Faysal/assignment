@@ -11,7 +11,7 @@ a{text-decoration: none;}
 .bg-secondary{background-color: #ffff;}
 .img-margin{margin-bottom: 30px;}
 .box{
-    padding: 32px;
+    padding: 40px;
     border-radius: 16px;
 width: 410px;
 height: 325px;
@@ -136,7 +136,7 @@ margin:32px auto;
 }
 .box-description{margin-bottom: ;}
 .box1{
-    background-color:  rgb(146, 180, 235);
+    background-color:rgba(84, 144, 245, 0.2);;
 }
 .box2{
     background-color:  rgb(198, 228, 214);
@@ -162,4 +162,26 @@ flex-direction: column;
 justify-content: space-around;
 border: 1px solid rgba(14, 14, 14, 0.15);
 }
+
+.table-container{margin:0;}
+
+.table{
+    border-collapse: collapse;
+    width: 1400px ;
+    height: 409px;
+    align-items: center;
+}
+th{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+border: 1px 1px  0 1px;
+}
+th, td{border: 1px solid black;}
+
+
+
+
+
+
 
