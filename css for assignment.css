@@ -1,42 +1,48 @@
+/* I have made this without using container hight & width .recommended for ratio 1920*1080 or browser zoom in or zoom out needed  */
+
+
+ /* Universal */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
     background-color:#F1F1F3;
 }
-   
+
+.fira{font-family: "Fira Sans", serif;}
+nav div h3{
+  font-size: 32px;
+  font-weight: bold;
+color: black;
+} 
 a{text-decoration: none;}
+
 /* shared: */
+.transparent{
+    background-color: transparent;}
 .bg-primary{background-color: #C6E4D6;}
 .bg-secondary{background-color: #ffff;}
-.img-margin{margin-bottom: 30px;}
-
-.transparent{
-    background-color: transparent;
-}
+.white{background-color: #ffff;}
+.blue{background-color:#5490F5;}
+.green{background-color: rgb(9, 161, 92);}
+.yellow{background-color: rgb(255, 194, 57);}
 .text-primary{
     font-size: 16px;
     font-weight: 400px;
     line-height: 24px;
   color:rgba(14, 14, 14, 0.7) ;
-  
 }
 .share-box-title{
     font-size:20px ;
     font-weight: 700;
     color: rgba(14, 14, 14, 0.8);
 }
-
 .text-headding{font-size: 32px;
     font-weight: 700px;
     line-height: 24px;
-  color:rgba(14, 14, 14, 0.7)}
-
-.white{background-color: #ffff;}
-.blue{background-color:#5490F5;}
-.green{background-color: rgb(9, 161, 92);}
-.yellow{background-color: rgb(255, 194, 57);}
-.button-first{
+  color:rgba(14, 14, 14, 0.7);
+}
+  .button-first{
     font-size: 16px;
 font-weight: 600;
 border-radius: 8px;
@@ -45,19 +51,6 @@ height: 50px;
 padding: 10px 20px;
 bottom: 50px;
 border: none;}
-
-/* Universal */
-.fira{font-family: "Fira Sans", serif;}
-nav div h3{
-  font-size: 32px;
-  font-weight: bold;
-color: black;
-}
-
-.nav-button:hover{
-background-color: #C6E4D6 ;
-transition: .5s;
-}
 
 .btn-primary{
     text-decoration:none ;
@@ -68,16 +61,27 @@ transition: .5s;
     font-size: 18px;
     font-weight: 600px;
 }
+.btn-secondary{
+    text-decoration: none;
+    color: white;
+    background-color: #006A50;
+    padding: 20px 100px ;
+    border-radius: 8px;
+    border: none;
+}
+/* main section start*/
+.main{margin: 0px 160px;}
+/* Navbar */
 .navbar-item{
     display: flex;
     padding: 31px 160px 31px 160px;
     justify-content: space-between;
     align-items: center;
 }
-/* main section */
-.main{margin: 0px 160px;
-
-}
+.nav-button:hover{
+    background-color: #C6E4D6 ;
+    transition: .5s;
+    }
 
 /* banner */
 
@@ -92,7 +96,6 @@ transition: .5s;
 .banner-content{max-width:622px  ;
 max-height: 326px ;
 }
-
 .content-sub-title{
     font-size: 24px;
     font-weight: 600px;
@@ -105,7 +108,6 @@ max-height: 326px ;
     margin-bottom: 35px;
     
 }
-
 .content-img{
     max-width: 474.3 px;
     max-height: 400px;
@@ -113,14 +115,7 @@ max-height: 326px ;
 
 }
 .banner-content a{text-decoration: none;}
-.btn-secondary{
-    text-decoration: none;
-    color: white;
-    background-color: #006A50;
-    padding: 20px 100px ;
-    border-radius: 8px;
-    border: none;
-}
+
 /* Pillar */
 section{
     margin-bottom: 80px;
@@ -141,9 +136,7 @@ height:64px ;
     display: flex;
     justify-content:space-between;
     gap: 24px;
-
 }
-
 .pillar{
     border: 1px solid rgba(14, 14, 14, 0.15);
     width: 300px;
@@ -154,28 +147,23 @@ height:64px ;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 /* vision */
-
 
 .vision{
     margin: 80px auto;
 }
-
 .vision-box{display: flex;
 justify-content: space-between;
 gap: 24px;
 margin:32px auto;
 }
-
 .vision-box-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 35px auto;
 }
-
 .box{
     padding: 40px;
     border-radius: 16px;
@@ -185,7 +173,6 @@ height: 325px;
 .box-img{height: 60px;
 width: 60px;
 background-color: transparent;}
-
 .box-main{
     display: flex;
     flex-direction: column;
@@ -204,16 +191,14 @@ background-color: transparent;}
 .box1{
     background-color: rgba(84, 144, 245, 0.2);
 }
-.box2{
-    background-color:rgb(198, 228, 214);
-}
+
 .box3{
     background-color: rgb(247, 235, 207);
 }
-
 /* Quote */
 .block-quotes{
 margin: 0;
+gap:12px;
 height: 160px;
 padding: 48px 24px;
 border-radius: 16px;
@@ -226,6 +211,7 @@ flex-direction: column;
 justify-content: space-around;
 border: 1px solid rgba(14, 14, 14, 0.15);
 }
+
        /* table */
 
 .table-container{margin:0;}
@@ -243,7 +229,6 @@ border: 1px solid rgba(14, 14, 14, 0.15);
     border: 1px;
 }
 
-
 /* News */
 .news-part{
     display: flex;
@@ -260,12 +245,10 @@ border: 1px solid rgba(14, 14, 14, 0.15);
     font-size: 40px;
     font-weight: 400px;
 }
-
 .news-container{
     display: flex;
     flex-direction: column;
-    gap: 30px;
-   
+    gap: 30px; 
 }
 .news{
     display: flex;
@@ -281,8 +264,8 @@ border: 1px solid rgba(14, 14, 14, 0.15);
     display: flex;
 }
 
-
 /* Donate */
+
 .donation{
     display: flex;
     flex-direction: column;
@@ -297,7 +280,6 @@ border: 1px solid rgba(14, 14, 14, 0.15);
     justify-content: center;
     gap: 30px;
 }
-
 .donation-title{
 font-size: 40px;
 font-weight: 700px;
@@ -312,9 +294,6 @@ font-weight: 700px;
     gap: 50px;
 
 }
-
-
-
 .card{
     padding: 40px;
     border: 1px solid rgba(14, 14, 14, 0.15); ;
@@ -324,13 +303,11 @@ font-weight: 700px;
   background-color: white;
 
 }
-
 .card:hover{
     background-color: #C6E4D6;
     cursor:pointer;
     transition: .5s;
 }
-
 .donation input{
     height: 15px;
     width: 970px;
@@ -347,7 +324,6 @@ font-weight: 700px;
     border-radius: 10px;
     background-color: rgb(0, 106, 80)
 }
-
 /* Subscribe */
 .subscribe{
     padding: 80px 100px;
@@ -361,7 +337,6 @@ height: 400px;
     margin-bottom: 80px;
     margin-top: 80px;
 }
-
 .subscribe-title {
     font-size: 48px;
     font-weight: 700px;
@@ -391,7 +366,7 @@ border-radius: 10px 0 0 10px;
     border-radius: 0 10px  10px 0;
     background-color: rgb(0, 106, 80)
 }
-
+/* main section end*/
 
 /* footer */
 .footer{
@@ -413,5 +388,7 @@ hr{margin: 40px 50px;}
     font-weight: 700;
     Font-size: 32px;
     margin-top: 40px;
-    
    }
+
+
+   
