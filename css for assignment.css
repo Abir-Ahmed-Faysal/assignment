@@ -199,3 +199,38 @@ border: 1px solid rgba(14, 14, 14, 0.15);
 }
 
 /* Donation */
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer{
+    width: ;
+    padding:50px 160px;
+margin: 0;
+background-color:white;
+height: 250px;
+position: relative;
+}
+.b{
+    position: relative;
+    margin:  auto 50PX;
+    display: flex;
+     gap: 40px;
+     align-items: center;
+     justify-content: center;
+}
+hr{margin: 40px 10px;}
+
+.footer-title{
+    font-weight: 700;
+    Font-size: 32px;
+    margin-top: 40px;
+    
+   }
