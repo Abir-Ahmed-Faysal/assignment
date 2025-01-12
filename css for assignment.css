@@ -10,12 +10,7 @@ a{text-decoration: none;}
 .bg-primary{background-color: #C6E4D6;}
 .bg-secondary{background-color: #ffff;}
 .img-margin{margin-bottom: 30px;}
-.box{
-    padding: 40px;
-    border-radius: 16px;
-width: 410px;
-height: 325px;
-}
+
 .transparent{
     background-color: transparent;
 }
@@ -23,8 +18,20 @@ height: 325px;
     font-size: 16px;
     font-weight: 400px;
     line-height: 24px;
-  color:rgba(14, 14, 14, 0.7) ;  
+  color:rgba(14, 14, 14, 0.7) ;
+  
 }
+.share-box-title{
+    font-size:20px ;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.text-headding{font-size: 32px;
+    font-weight: 700px;
+    line-height: 24px;
+  color:rgba(14, 14, 14, 0.7)}
+
 .white{background-color: #ffff;}
 .blue{background-color:#5490F5;}
 .green{background-color: rgb(9, 161, 92);}
@@ -36,23 +43,20 @@ border-radius: 8px;
 width: 150px;
 height: 50px;
 padding: 10px 20px;
-color: white;
 bottom: 50px;
-border: none;
-position: absolute;}
+border: none;}
 
-/*  */
+/* Universal */
 .fira{font-family: "Fira Sans", serif;}
 nav div h3{
   font-size: 32px;
   font-weight: bold;
 color: black;
 }
-.navbar-item{
-    display: flex;
-    padding: 31px 160px 31px 160px;
-    justify-content: space-between;
-    align-items: center;
+
+.nav-button:hover{
+background-color: #C6E4D6 ;
+transition: .5s;
 }
 
 .btn-primary{
@@ -63,6 +67,12 @@ color: black;
     border-radius: 8px;
     font-size: 18px;
     font-weight: 600px;
+}
+.navbar-item{
+    display: flex;
+    padding: 31px 160px 31px 160px;
+    justify-content: space-between;
+    align-items: center;
 }
 /* main section */
 .main{margin: 0px 160px;
@@ -82,8 +92,6 @@ color: black;
 .banner-content{max-width:622px  ;
 max-height: 326px ;
 }
-
-
 
 .content-sub-title{
     font-size: 24px;
@@ -113,18 +121,29 @@ max-height: 326px ;
     border-radius: 8px;
     border: none;
 }
+/* Pillar */
+section{
+    margin-bottom: 80px;
+}
+.pillar-Bangladesh{display: flex;
+flex-direction: column;
+gap: 32px;
+}
 .pillar-title{
-    font-size: ;
-    font-weight: ;
+    font-size:40px ;
+    font-weight: 700;
     margin-bottom: 15px;
 }
-
+.img-margin{width: 64px;
+height:64px ;
+}
 .pillars{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     gap: 24px;
 
 }
+
 .pillar{
     border: 1px solid rgba(14, 14, 14, 0.15);
     width: 300px;
@@ -132,28 +151,67 @@ max-height: 326px ;
     padding: 24px;
     border-radius: 16px;
     background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+/* vision */
+
+
+.vision{
+    margin: 80px auto;
 }
 
 .vision-box{display: flex;
 justify-content: space-between;
 gap: 24px;
 margin:32px auto;
-
 }
-.box-description{margin-bottom: ;}
+
+.vision-box-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px auto;
+}
+
+.box{
+    padding: 40px;
+    border-radius: 16px;
+width: 410px;
+height: 325px;
+}
+.box-img{height: 60px;
+width: 60px;
+background-color: transparent;}
+
+.box-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+.box-secondary{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.box-title{
+    margin-top: 24px;
+}
 .box1{
-    background-color:rgba(84, 144, 245, 0.2);;
+    background-color: rgba(84, 144, 245, 0.2);
 }
 .box2{
-    background-color:  rgb(198, 228, 214);
+    background-color:rgb(198, 228, 214);
 }
 .box3{
-    background-color:  rgb(247, 235, 207);
+    background-color: rgb(247, 235, 207);
 }
 
-.box img{height: 60px;
-width: 60px;}
-
+/* Quote */
 .block-quotes{
 margin: 0;
 height: 160px;
@@ -168,6 +226,7 @@ flex-direction: column;
 justify-content: space-around;
 border: 1px solid rgba(14, 14, 14, 0.15);
 }
+       /* table */
 
 .table-container{margin:0;}
 
@@ -187,12 +246,25 @@ border: 1px solid rgba(14, 14, 14, 0.15);
 
 /* News */
 .news-part{
-    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin:80px auto;
 }
-.news-container{
+.news-bar{
     display: flex;
     flex-direction: column;
     gap: 24px;
+}
+.news-bar-title{
+    font-size: 40px;
+    font-weight: 400px;
+}
+
+.news-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
    
 }
 .news{
